@@ -35,3 +35,26 @@ const questions = [
         }
     }
 ];
+
+// Function to initialize app
+function init() {
+    return inquirer.prompt(questions)
+        .then((data) => {
+           const mark = MarkDown(data)
+            fs.writeFile( function (err){
+                if (err) {
+                    console.log('Your employee was not saved successfully.', err)
+                } else {
+                    console.log('A new employee was generated!')
+                }
+            })
+            //console.log(mark)
+            //return data
+        })
+        .catch((error) => {
+            console.log(error)
+        })
+}
+
+// Function call to initialize app
+init();
