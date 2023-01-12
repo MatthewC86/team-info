@@ -110,9 +110,9 @@ async function init() {
                     <ul>
                         <h3 class='card-text' id='employee-name'>${managerAnswers.name}</h3>
                         <h3 class='card-text' id='occupation'>Manager</h3></ul><br>
-                        <ol class='card-footer' id='id'>ID:${managerAnswers.id}</ol>
-                        <ol class='card-footer' id='email'>Email:${managerAnswers.email}</ol>
-                        <ol class='card-footer' id='office-number'>Office number:${managerAnswers.officeNumber}</ol>
+                        <ol class='card-footer' id='id'>ID: ${managerAnswers.id}</ol>
+                        <ol class='card-footer' id='email'>Email: ${managerAnswers.email}</ol>
+                        <ol class='card-footer' id='office-number'>Office number: ${managerAnswers.officeNumber}</ol>
                     </ul>
                 </div>
             </div>
@@ -123,9 +123,9 @@ async function init() {
                 <ul>
                     <h3 class='card-text' id='employee-name'>${engineerAnswers.name}</h3>
                     <h3 class='card-text' id='occupation'>Engineer</h3></ul><br>
-                    <ol class='card-footer' id='id'>ID:${engineerAnswers.id}</ol>
-                    <ol class='card-footer' id='email'>Email:${engineerAnswers.email}</ol>
-                    <ol class='card-footer' id='office-number'>Office number:${engineerAnswers.github}</ol>
+                    <ol class='card-footer' id='id'>ID: ${engineerAnswers.id}</ol>
+                    <ol class='card-footer' id='email'>Email: ${engineerAnswers.email}</ol>
+                    <ol class='card-footer' id='office-number'>Office number: ${engineerAnswers.github}</ol>
                 </ul>
             </div>
         </div>`
@@ -137,9 +137,9 @@ async function init() {
                 <ul>
                     <h3 class='card-text' id='employee-name'>${internAnswers.name}</h3>
                     <h3 class='card-text' id='occupation'>Intern</h3></ul><br>
-                    <ol class='card-footer' id='id'>ID:${internAnswers.id}</ol>
-                    <ol class='card-footer' id='email'>Email:${internAnswers.email}</ol>
-                    <ol class='card-footer' id='office-number'>Office number:${internAnswers.school}</ol>
+                    <ol class='card-footer' id='id'>ID: ${internAnswers.id}</ol>
+                    <ol class='card-footer' id='email'>Email: ${internAnswers.email}</ol>
+                    <ol class='card-footer' id='office-number'>Office number: ${internAnswers.school}</ol>
                 </ul>
             </div>
         </div>`
