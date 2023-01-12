@@ -1,3 +1,4 @@
+//required models
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require('path');
@@ -74,7 +75,7 @@ async function init() {
 
         let roleAnswer = await inquirer.prompt(roleQuestion)
         
-
+//while loop will let the user add as many roles as needed
         while (roleAnswer.role != 'Finish') {
             if (roleAnswer.role === 'Engineer') {
                 const engineerAnswers = await inquirer.prompt(engineerQuestions) 
